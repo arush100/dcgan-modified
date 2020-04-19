@@ -1,6 +1,5 @@
 *.pyc
 .project
 .pydevproject
-*.jpg
 _cache_*
 /.metadata/

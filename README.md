@@ -16,6 +16,6 @@ Type `python demo.py -h` to see more completely how to use it.
 
 As an example, if in this repo I type `mkdir images` followed by `python demo.py generator.pt images -n 50 -w 0.05 -s 0` I get 50 images in the new directory that comprise a pretty smooth deformation from the image on the left to the image on the right. You will, of course, need PyTorch installed, and also PIL. I've included the output of this command in the folder sample-output in case you don't have one of those.   
 
-![alt text](sample-output/demo-image00000.jpg) ![alt text](sample-output/demo-image00049.jpg)
+![First image](sample-output/demo-image00000.jpg) ![Last image](sample-output/demo-image00049.jpg)
  
  Here we see a change in room lighting, as well as what appears to be part of a bed morphing into some sort of dresser drawer or cabinet. As expected of a latent space walk in a good semantic representation, these changes are gradual and have a meaning intelligible to us. As an interesting side note, the generator appears to be trying to make this particular floor very reflective. I don't have a clue why. 
